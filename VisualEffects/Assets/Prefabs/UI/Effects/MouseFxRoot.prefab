@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &891158754398528994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9201508615336143028}
+  - component: {fileID: 193056784334511581}
+  m_Layer: 0
+  m_Name: MouseFxRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9201508615336143028
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891158754398528994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &193056784334511581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891158754398528994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00abe5cfa3842bd9069c630618d8ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseMagicFxController
+  effectEnabled: 1
+  maxActiveParticles: 120
+  autoPlayLeftClickBurst: 1
+  keepRootOnTop: 1
+  dustSprite: {fileID: 0}
+  ringSprite: {fileID: 0}
+  trailEnabled: 1
+  trailSpawnDistance: 10
+  maxTrailSpawnsPerFrame: 2
+  trailLifetimeRange: {x: 0.25, y: 0.42}
+  trailScaleRange: {x: 2.5, y: 6}
+  trailColors:
+  - {r: 1, g: 0.82, b: 0.34, a: 0.72}
+  - {r: 1, g: 0.96, b: 0.78, a: 0.58}
+  - {r: 0.72, g: 0.88, b: 1, a: 0.22}
+  trailDownwardGravity: 24
+  trailFallSpeed: 10
+  trailJitterRange: 6
+  trailBehindDistance: 8
+  burstCount: 10
+  burstLifetimeRange: {x: 0.18, y: 0.32}
+  burstSpeedRange: {x: 55, y: 120}
+  burstScaleRange: {x: 3, y: 7}
+  burstColors:
+  - {r: 1, g: 0.78, b: 0.22, a: 0.82}
+  - {r: 1, g: 0.94, b: 0.7, a: 0.7}
+  - {r: 1, g: 1, b: 0.92, a: 0.6}
+  ringLifetime: 0.24
+  ringStartScale: 10
+  ringEndScale: 42
+  ringColor: {r: 1, g: 0.73, b: 0.22, a: 0.62}
+  ringThickness: 2

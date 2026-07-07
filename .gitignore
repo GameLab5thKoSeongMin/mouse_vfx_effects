@@ -1,0 +1,102 @@
+# Unity project ignore rules
+# Unity generated folders
+# ==============================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ==============================
+# Unity local/user settings
+# ==============================
+[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity cache / crash / profiler
+sysinfo.txt
+*.stackdump
+
+# Unity generated meta backups
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Asset Store / package temp
+AssetStoreTools*
+Packages/packages-lock.json.bak
+
+# ==============================
+# IDE / editor files
+# ==============================
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Build outputs
+# ==============================
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.dmg
+*.zip
+*.7z
+*.rar
+
+# ==============================
+# AI / MCP local runtime files
+# ==============================
+# IvanMurzak/Unity-MCP local server binary cache
+Library/mcp-server/
+
+# Unity-MCP local per-user config
+UserSettings/AI-Game-Developer-Config.json
+
+# Codex local/project config
+# 공유용 MCP 설정을 repo에 넣을 계획이면 아래 줄을 주석 처리하세요.
+.codex/
+
+# ==============================
+# Node / tool cache
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+.env.*
+*.key
+*.pem
+
+# Local agent tools
+.agents/

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="10" result="Passed" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.0953165">
+  <test-suite type="TestSuite" id="1016" name="VisualEffects" fullname="VisualEffects" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.095317" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1012" name="Audio.PlayMode.Tests.dll" fullname="C:/Users/jungle/Documents/GitHub/mouse_vfx_effects/VisualEffects/Library/ScriptAssemblies/Audio.PlayMode.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.090053" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="25800" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="SoundManagerPlayModeTests" fullname="SoundManagerPlayModeTests" classname="SoundManagerPlayModeTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.088896" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1003" name="DuplicateSoundManager_DestroysNewInstance" fullname="SoundManagerPlayModeTests.DuplicateSoundManager_DestroysNewInstance" methodname="DuplicateSoundManager_DestroysNewInstance" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="127078823" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.026262" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Duplicate SoundManager found. Destroying the new instance: SoundManager_Second
+]]></output>
+        </test-case>
+        <test-case id="1002" name="Instance_IsSetWhenCreated" fullname="SoundManagerPlayModeTests.Instance_IsSetWhenCreated" methodname="Instance_IsSetWhenCreated" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="907097886" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.005409" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1008" name="PlaySfx_ButtonClick_UsesPooledSource" fullname="SoundManagerPlayModeTests.PlaySfx_ButtonClick_UsesPooledSource" methodname="PlaySfx_ButtonClick_UsesPooledSource" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="1489776372" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.007644" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1010" name="PlaySfx_ExceedInitialPool_ExpandsWhenAllowed" fullname="SoundManagerPlayModeTests.PlaySfx_ExceedInitialPool_ExpandsWhenAllowed" methodname="PlaySfx_ExceedInitialPool_ExpandsWhenAllowed" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="1817439093" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.005297" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="PlaySfx_MissingId_LogsWarningWithoutException" fullname="SoundManagerPlayModeTests.PlaySfx_MissingId_LogsWarningWithoutException" methodname="PlaySfx_MissingId_LogsWarningWithoutException" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="1124374532" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.006041" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[SFX ID not found: missing_sfx
+]]></output>
+        </test-case>
+        <test-case id="1005" name="TryPlayLoopForScene_Main_AssignsMainClip" fullname="SoundManagerPlayModeTests.TryPlayLoopForScene_Main_AssignsMainClip" methodname="TryPlayLoopForScene_Main_AssignsMainClip" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="1706461680" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.005866" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="TryPlayLoopForScene_MissingScene_StopsLoopWhenConfigured" fullname="SoundManagerPlayModeTests.TryPlayLoopForScene_MissingScene_StopsLoopWhenConfigured" methodname="TryPlayLoopForScene_MissingScene_StopsLoopWhenConfigured" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="36848405" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.005619" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="TryPlayLoopForScene_SameScene_DoesNotRestartClip" fullname="SoundManagerPlayModeTests.TryPlayLoopForScene_SameScene_DoesNotRestartClip" methodname="TryPlayLoopForScene_SameScene_DoesNotRestartClip" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="1880895118" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.005379" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="TryPlayLoopForScene_Title_AssignsTitleClip" fullname="SoundManagerPlayModeTests.TryPlayLoopForScene_Title_AssignsTitleClip" methodname="TryPlayLoopForScene_Title_AssignsTitleClip" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="1551640" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.004961" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1011" name="Volume_SaveAndLoad_RestoresPlayerPrefsValues" fullname="SoundManagerPlayModeTests.Volume_SaveAndLoad_RestoresPlayerPrefsValues" methodname="Volume_SaveAndLoad_RestoresPlayerPrefsValues" classname="SoundManagerPlayModeTests" runstate="Runnable" seed="1049848212" result="Passed" start-time="2026-07-08 04:46:36Z" end-time="2026-07-08 04:46:36Z" duration="0.006029" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:/Users/jungle/AppData/LocalLow/DefaultCompany/VisualEffects\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

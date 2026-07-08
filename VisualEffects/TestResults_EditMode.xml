@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.0974231">
+  <test-suite type="TestSuite" id="1000" name="VisualEffects" fullname="VisualEffects" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.097423" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1009" name="Audio.EditMode.Tests.dll" fullname="C:/Users/jungle/Documents/GitHub/mouse_vfx_effects/VisualEffects/Library/ScriptAssemblies/Audio.EditMode.Tests.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.042172" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24712" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="SoundManagerEditModeTests" fullname="SoundManagerEditModeTests" classname="SoundManagerEditModeTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.041086" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1007" name="PlayerPrefsKeyNames_AreExpected" fullname="SoundManagerEditModeTests.PlayerPrefsKeyNames_AreExpected" methodname="PlayerPrefsKeyNames_AreExpected" classname="SoundManagerEditModeTests" runstate="Runnable" seed="210924337" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.009648" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="SceneLoopEntry_EmptySceneName_IsInvalid" fullname="SoundManagerEditModeTests.SceneLoopEntry_EmptySceneName_IsInvalid" methodname="SceneLoopEntry_EmptySceneName_IsInvalid" classname="SoundManagerEditModeTests" runstate="Runnable" seed="1419428063" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.000852" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="SceneLoopEntry_NullLoopClip_IsWarningTarget" fullname="SoundManagerEditModeTests.SceneLoopEntry_NullLoopClip_IsWarningTarget" methodname="SceneLoopEntry_NullLoopClip_IsWarningTarget" classname="SoundManagerEditModeTests" runstate="Runnable" seed="772186421" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.001611" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="SceneLoopTable_DuplicateSceneName_ReturnsWarning" fullname="SoundManagerEditModeTests.SceneLoopTable_DuplicateSceneName_ReturnsWarning" methodname="SceneLoopTable_DuplicateSceneName_ReturnsWarning" classname="SoundManagerEditModeTests" runstate="Runnable" seed="1144600382" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.010336" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Duplicate SceneLoopEntry sceneName ignored: AudioTest_Title
+]]></output>
+        </test-case>
+        <test-case id="1005" name="SfxLibrary_DuplicateId_LogsWarning" fullname="SoundManagerEditModeTests.SfxLibrary_DuplicateId_LogsWarning" methodname="SfxLibrary_DuplicateId_LogsWarning" classname="SoundManagerEditModeTests" runstate="Runnable" seed="867030148" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.005064" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Duplicate SFX ID ignored: button_click
+]]></output>
+        </test-case>
+        <test-case id="1004" name="SoundEntry_EmptyId_IsInvalid" fullname="SoundManagerEditModeTests.SoundEntry_EmptyId_IsInvalid" methodname="SoundEntry_EmptyId_IsInvalid" classname="SoundManagerEditModeTests" runstate="Runnable" seed="1568483449" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.000323" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1008" name="Volume_SetValueOutsideRange_ClampsToZeroOne" fullname="SoundManagerEditModeTests.Volume_SetValueOutsideRange_ClampsToZeroOne" methodname="Volume_SetValueOutsideRange_ClampsToZeroOne" classname="SoundManagerEditModeTests" runstate="Runnable" seed="1328353692" result="Passed" start-time="2026-07-08 02:41:11Z" end-time="2026-07-08 02:41:11Z" duration="0.001424" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:/Users/jungle/AppData/LocalLow/DefaultCompany/VisualEffects\TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
